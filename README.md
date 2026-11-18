@@ -6,11 +6,11 @@ Full-stack & AI engineer, studying at RUPP in Phnom Penh. I build web and mobile
 
 | | Project | What it is | Stack |
 |---|---|---|---|
-| 01 | **Clip Studio** | Turns long YouTube videos into Shorts, fully local | Python · Ollama · Whisper |
-| 02 | **Serey** | Creator community — blogs, podcasts, video and shop, web + mobile app | Next.js · Flutter |
-| 03 | [**Serey Ubuntu Touch**](https://github.com/serey-io/Serey-UbuntuTouch) | Native Ubuntu Touch client for Serey | QML · Lomiri |
-| 04 | [**STEMEOC Website**](https://github.com/STEMEOC/STEMEOC-Website) | Site + admin dashboard for STEM Education Organization of Cambodia | Next.js · Prisma · Redis |
-| 05 | [**SEREY-chatbot**](https://github.com/TeHenglay/SEREY-chatbot) | AI assistant for Serey | Python |
+| 01 | **Serey** | Creator community — blogs, podcasts, video and shop, web + mobile app | Next.js · Flutter |
+| 02 | [**Serey Ubuntu Touch**](https://github.com/serey-io/Serey-UbuntuTouch) | Native Ubuntu Touch client for Serey | QML · Lomiri |
+| 03 | [**STEMEOC Website**](https://github.com/STEMEOC/STEMEOC-Website) | Site + admin dashboard for STEM Education Organization of Cambodia | Next.js · Prisma · Redis |
+| 04 | [**SEREY-chatbot**](https://github.com/TeHenglay/SEREY-chatbot) | AI assistant for Serey | Python |
+| 05 | **Clip Studio** | Turns long YouTube videos into Shorts, fully local | Python · Ollama · Whisper |
 
 ### Stack
 
