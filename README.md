@@ -7,10 +7,9 @@ Full-stack & AI engineer, studying at RUPP in Phnom Penh. I build web and mobile
 | | Project | What it is | Stack |
 |---|---|---|---|
 | 01 | **Clip Studio** | Turns long YouTube videos into Shorts, fully local | Python · Ollama · Whisper |
-| 02 | **Serey** | Music platform — web and iOS app | Next.js · Flutter |
+| 02 | **Serey** | Creator community — blogs, podcasts, video and shop, web + mobile app | Next.js · Flutter |
 | 03 | [**SEREY-chatbot**](https://github.com/TeHenglay/SEREY-chatbot) | AI assistant for Serey | Python |
-| 04 | [**ollama-chat**](https://github.com/TeHenglay/ollama-chat) | Chat UI for a local Ollama model | React |
-| 05 | [**Riftbound**](https://github.com/TeHenglay/Riftbound) | Roblox game with Blender-made levels | Lua · Blender |
+| 04 | [**STEMEOC Website**](https://github.com/STEMEOC/STEMEOC-Website) | Site + admin dashboard for STEM Education Organization of Cambodia | Next.js · Prisma · Redis |
 
 ### Stack
 
