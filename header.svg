@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Henglay — Full-stack and AI engineer, Phnom Penh">
+  <style>
+    .mono { font-family: ui-monospace, "SFMono-Regular", "JetBrains Mono", Consolas, monospace; letter-spacing: 0.08em; }
+    .serif { font-family: "Iowan Old Style", "Palatino Linotype", Georgia, "Times New Roman", serif; }
+    .dim { fill: #8a8a8a; }
+    .gold { fill: #e8b400; }
+
+    .rule { stroke: #2a2a2a; stroke-width: 1; stroke-dasharray: 1104; stroke-dashoffset: 1104; animation: draw 1.2s cubic-bezier(.6,0,.2,1) forwards; }
+    .rule.b { animation-delay: .3s; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+
+    .name { opacity: 0; transform: translateY(30px); animation: rise .9s cubic-bezier(.2,.7,.2,1) .4s forwards; }
+    .meta { opacity: 0; animation: fade .8s ease 1s forwards; }
+    @keyframes rise { to { opacity: 1; transform: none; } }
+    @keyframes fade { to { opacity: 1; } }
+
+    .dot { animation: pulse 1.6s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: .2; } }
+
+    .role { opacity: 0; animation: cycle 12s cubic-bezier(.2,.7,.2,1) infinite both; }
+    .r2 { animation-delay: 3s; } .r3 { animation-delay: 6s; } .r4 { animation-delay: 9s; }
+    @keyframes cycle {
+      0%   { opacity: 0; transform: translateY(36px); }
+      4%   { opacity: 1; transform: none; }
+      22%  { opacity: 1; transform: none; }
+      26%  { opacity: 0; transform: translateY(-36px); }
+      100% { opacity: 0; transform: translateY(-36px); }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .rule { stroke-dashoffset: 0; }
+      .name, .meta, .r1 { opacity: 1; transform: none; }
+    }
+  </style>
+
+  <rect width="1200" height="400" fill="#0a0a0a"/>
+
+  <!-- top bar -->
+  <g class="meta mono" font-size="14">
+    <circle class="dot gold" cx="54" cy="51" r="5"/>
+    <text x="70" y="56" fill="#f2f2f2">@TEHENGLAY</text>
+    <text x="1152" y="56" text-anchor="end" class="dim">PHNOM PENH, KH — 11.56°N 104.92°E</text>
+  </g>
+  <line class="rule" x1="48" y1="82" x2="1152" y2="82"/>
+
+  <!-- name -->
+  <g class="name">
+    <text x="42" y="222" class="serif" font-size="150" fill="#f2f2f2" letter-spacing="-4">Henglay<tspan class="gold">.</tspan></text>
+  </g>
+
+  <!-- rotating role -->
+  <clipPath id="roleClip"><rect x="0" y="282" width="1200" height="44"/></clipPath>
+  <g class="mono" font-size="26">
+    <text x="50" y="314" class="dim meta">/ </text>
+    <g clip-path="url(#roleClip)">
+      <text class="role r1" x="86" y="314" fill="#f2f2f2">Full-stack engineer</text>
+      <text class="role r2" x="86" y="314" fill="#f2f2f2">AI engineer</text>
+      <text class="role r3" x="86" y="314" fill="#f2f2f2">Flutter mobile dev</text>
+      <text class="role r4" x="86" y="314" fill="#f2f2f2">Local LLM tinkerer</text>
+    </g>
+  </g>
+
+  <!-- bottom bar -->
+  <line class="rule b" x1="48" y1="346" x2="1152" y2="346"/>
+  <g class="meta mono dim" font-size="13">
+    <text x="48" y="374">NEXT.JS / FLUTTER / PYTHON / OLLAMA / WHISPER</text>
+    <text x="1152" y="374" text-anchor="end">RUPP — EST. 2025</text>
+  </g>
+</svg>
